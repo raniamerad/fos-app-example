@@ -29,6 +29,12 @@ export default {
       },
     },
   },
+   methods: {
+    editAnime() {
+      this.$emit("edit-anime", this.anime);
+    },
+  },
+};
 };
 </script>
 
